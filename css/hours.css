@@ -123,3 +123,121 @@ body {
     font-family: 'GmarketSansBold';
     font-size: 20px;
 }
+
+/* 사용자 입력 */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.inputs div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputs input {
+    padding: 15px 20px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'GmarketSansMedium';
+    width: 200px;
+}
+
+.inputs input::placeholder {
+    color: gray;
+}
+
+/* 버튼 공통 스타일 */
+button {
+    display: flex;
+    align-items: center;
+    font-family: 'GmarketSansBold';
+    font-size: 20px;
+    color: #D96725;
+    background-color: #F5DF4D;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    cursor: pointer;
+    word-break: keep-all;   
+    /* word-break: keep-all 은 단어 단위로 줄바꿈을 해줌 */
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.start .btn_wrap {
+    position: relative;
+}
+
+.start .click_img {
+    position: absolute;
+    right: -75px;
+    bottom: -25px;
+}
+
+/* 결과 로딩 */
+.result_loading {
+    display: none;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.result_loading .img_wrap {
+    width: 100px;
+    height: 100px;
+}
+
+.result_loading .img_wrap img {
+    width: 100%;
+    height: auto;
+    animation: rotate 1.1s infinite linear;
+    /* linear는 일정한 속도 */
+}
+
+/* 결과 */
+.result {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+.result .result_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result .result_wrap div {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.result span {
+    padding: 0 20px;
+    font-family: 'GmarketSansBold';
+    font-size: 70px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;;
+}
+
+.buttons .share button {
+    background-color: #fff;
+    margin-left: 20px;
+}
