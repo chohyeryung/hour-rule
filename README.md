@@ -5,3 +5,6 @@
 ### 개발 환경
 언어 : html, css, javascript<br>
 툴 : visual studio code
+
+### page url
+https://chohyeryung.github.io/hours-rule/
