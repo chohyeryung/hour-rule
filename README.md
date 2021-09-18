@@ -1,4 +1,4 @@
-# hours-rule: "1만 시간의 법칙"
+# 1. hours-rule: "1만 시간의 법칙"
 > 어떤 직업의 장인이 되려면 얼마나 시간투자를 해야할까요?
 <br>
 
@@ -8,3 +8,10 @@
 
 ### page url
 https://chohyeryung.github.io/hours-rule/
+
+
+# 2. HTML 기본
+
+# 3. CSS 기본
+
+# 4. JS 
