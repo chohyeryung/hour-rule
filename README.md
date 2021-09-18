@@ -8,10 +8,3 @@
 
 ### page url
 https://chohyeryung.github.io/hours-rule/
-
-
-# 2. HTML 기본
-
-# 3. CSS 기본
-
-# 4. JS 
